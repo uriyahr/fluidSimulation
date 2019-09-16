@@ -92,7 +92,7 @@ class Fluid {
           float x = i * SCALE;
           float y = j * SCALE;
           float d = this.density[IX(i,j)];
-          fill((d + 90) % 255,200,d);
+          fill((d + 90) % 50,200,d);
           noStroke();
           square(x,y,SCALE);
         }

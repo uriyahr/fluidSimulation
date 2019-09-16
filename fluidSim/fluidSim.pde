@@ -18,7 +18,7 @@ void mouseDragged(){
 }
 
 void draw(){
-  background(0);
+  background(200);
   fluid.step();
   fluid.renderD();
   fluid.fadeD();
